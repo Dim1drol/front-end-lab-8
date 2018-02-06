@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+header .container {
+  display: flex;
+}
+header  .log {
+  margin: 15px 0;
+  background-image: url("../homework_05/img/logo.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 54px;
+}
+header  ul {
+  display: flex;
+}
+header ul li {
+  list-style-type: none;
+  margin: auto 10px;
+}
+header  ul li a {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  
+}
+header  ul li a:hover {
+  color: #39c2d7;
+}
+main .container {
+  height: 100%;
+}
+ .banner {
+  width: 100%;
+  height: 420px;
+  background-image: url("../homework_05/img/banner.jpg");
+  background-position: center;
+  background-size: cover;
+   border-top: 1px solid #fff;
+  
+}
+
+main .text-banner {
+  width: 35%;
+  margin-top: 60px;
+  line-height: 1.3;
+}
+main .text-banner h1 {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 2.3em;
+}
+.news{
+	padding: 0 15px;
+}
+main .news .container{
+	display: grid;
+	grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    margin-top: 15px;
+	grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+    
+}
+main .news .box {
+	width: 100%;
+  background-color: #bdbaba;
+  
+}
+main .news  .box:hover {
+  background-color: #39c2d7;
+}
+main .news  .log {
+  padding: 15px 15px 0px 15px;
+}
+main .news   .log img {
+  width: 100%;
+}
+main .news .text {
+  padding: 10px 15px;
+}
+main .news  .text h2 {
+  font-size: 1.1em;
+  text-align: left;
+}
+main .news .text p {
+	 font-size: 0.9em;
+  text-align: left;
+  margin: 10px 0;
+ 
+}
+footer {
+  background-color: #39c2d7;
+}
+footer .container {
+  display: flex;
+}
+footer ul {
+  display: flex;
+}
+footer ul li {
+	margin: 10px 20px 10px 0;
+  list-style-type: none;
+  
+}
+footer  ul li a {
+  font-size: 0.8em;
+  color: #fff;
+  
+}
+footer  ul li a:hover {
+  text-decoration: none;
+}
+footer  p {
+  margin: 15px 0;
+  font-size: 0.9em;
+  color: #fff;
+  
+}
+@media (max-width: 575px) {
+  header  ul {
+  	width: 100%;
+    margin-bottom: 0;
+    display: block;
+    
+  }
+  header  ul li {
+  	border-top: 2px solid #8e8d8d;
+    padding: 15px 20px;
+    text-align: left;
+    background-color: #bdbaba;
+    
+  }
+  header  ul li a {
+    font-size: 1.2em;
+  }
+  header  ul li a:hover {
+    color: #39c2d7;
+  }
+
+  main .banner {
+  	border-top: 1px solid #bdbaba;
+    height: 300px;
+    
+  }
+  main .banner .container {
+    width: 90%;
+  }
+  main .banner .text-banner {
+  	 width: 100%;
+    background-color: #39c2d7;
+    margin-top: 185px;
+    line-height: 1.2;
+   
+  }
+  main .banner  .text-banner h1 {
+  	text-align: left;
+  	font-size: 1.2em;
+    padding: 10px;
+    
+    
+  }
+  main .news {
+    padding: 0;
+  }
+  main .news .container {
+    width: 90%;
+    display: block;
+  }
+  main .news  .box {
+    margin-top: 20px;
+  }
+  main .news  .box:hover {
+    background-color: #39c2d7;
+  }
+  main .news  .log {
+    padding: 15px 30px 0px 30px;
+  }
+
+  footer {
+    margin-top: 20px;
+  }
+  footer ul {
+    display: block;
+    padding-top: 10px;
+  }
+  footer  ul li {
+    padding-top: 5px;
+    margin: 0;
+  }
+  footer  ul li a {
+    font-size: 0.9em;
+  }
+  footer  ul li a:hover {
+    text-decoration: none;
+  }
+  footer  p {
+    padding: 15px;
+    margin: 0;
+    font-size: 0.9em;
+  }
+}
+@media (max-width: 900px) {
+  .container {
+    width: 100%;
+    text-align: center;
+  }
+
+  header .container {
+    display: block;
+  }
+  header .log {
+    margin: 15px auto;
+  }
+  header ul {
+    margin: 15px auto;
+    width: 50%;
+  }
+  header  ul li {
+    margin: 0 auto;
+  }
+  header ul li a {
+    font-size: 1em;
+  }
+
+  main .banner  .text-banner {
+    width: 65%;
+    margin: 60px auto;
+  }
+  main .banner  .text-banner h1 {
+    font-size: 1.5em;
+  }
+  main .news {
+    padding: 0 15px;
+  }
+  main .news .container {
+    display: grid;
+    grid-gap: 15px;
+    margin-top: 15px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+    
+  }
+  main .news  .box .log {
+    padding: 15px 40px 0px 40px;
+  }
+  main .news  .box .text {
+    padding-left: 10px;
+  }
+  main .news  .box .text h2 {
+    padding: 10px 0 5px 0;
+  }
+  main .news  .box .text p {
+    padding: 5px 0 10px 0;
+    margin: 0;
+  }
+
+  footer .container {
+    display: block;
+  }
+  footer ul {
+    width: 350px;
+    margin: 0 auto;
+  }
+  footer  ul li {
+    margin: 15px auto;
+  }
+  footer  p {
+  	margin: 0;
+    padding-bottom: 15px;
+    
+  }
+}
