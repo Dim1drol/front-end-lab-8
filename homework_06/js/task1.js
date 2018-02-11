@@ -28,7 +28,7 @@ else if(s1!=s2!=s3) {
 		"Incorrect data")
 }
 else{
-alert("For data"+" "+s1+","+s2+","+s3+":"+"\n"+
+console.log("For data"+" "+s1+","+s2+","+s3+":"+"\n"+
 		" Type of triangle is" + " "+txt+" "+ "and square is "+" "+squ.toFixed(2)) 
 }
 
